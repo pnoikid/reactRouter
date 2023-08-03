@@ -29,9 +29,9 @@ function App() {
       </nav>
       <div id="main-section">
         <Routes>
-        <Route path="/home" element={<h1>Home</h1>} />
-        <Route path="/blue" element={<h1>Blue</h1>} />
-        <Route path="/red" element={<h1>Red</h1>} />
+        <Route path="/home" element={<Home/>} />
+        <Route path="/blue" element={<Blue/>} />
+        <Route path="/red" element={<Red/>} />
         </Routes>
         </div>
     </div>
