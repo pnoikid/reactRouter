@@ -1,7 +1,9 @@
+
+
 const Blue = () => {
     return (
       <div className="blue">
-        <h1>BLUE</h1>
+        <h2>BLUE</h2>
       </div>
     );
   }

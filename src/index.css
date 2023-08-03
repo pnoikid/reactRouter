@@ -22,12 +22,22 @@ body > div {
 #navbar {
   padding: 2em;
   justify-content: space-evenly;
+  display: inline-block;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 h1 {
+  width: auto;
   text-align: center;
 }
-
+h2 {
+  text-align: center;
+}
 #main-section {
   flex-grow: 1;
 }
@@ -40,15 +50,20 @@ h1 {
 }
 
 .red {
-  background-color: #b05f6d;
+  background-color: #ff0303;
   color: white;
+  text-align: center;
+  width: auto;
 }
 
 .blue {
   background-color: #275db3;
   color: white;
+  text-align: center;
 }
 
 .home {
   background-color: cyan;
+  color: white;
+  text-align: center;
 }

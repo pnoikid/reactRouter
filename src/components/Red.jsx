@@ -3,7 +3,7 @@
 const Red = () =>{
     return (
       <div className="red">
-        <h1>RED</h1>
+        <h2>RED</h2>
       </div>
     );
   }
